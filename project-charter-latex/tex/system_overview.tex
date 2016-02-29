@@ -1,0 +1,16 @@
+The general overview of our system is the following:
+\begin{itemize}
+	\item A tool cart
+	\item Omni wheels for holonomic movement
+	\item Motors to control the wheels
+	\item Intel RealSense camera for imaging
+	\item Lead-acid battery to power the cart and power supply
+\end{itemize}
+If any additional  sensors are needed, we are also considering the following:
+\begin{itemize}
+	\item Sonar sensors
+	\item Infrared sensors
+	\item Kinect camera
+	\item Lithium battery
+\end{itemize}
+If more hardware components are needed, this project charter will be updated to reflect that. The cart shall first identify its `master' and try to maintain a set distance between itself and the `master'. From the imaging, it shall calculate and turn the wheels accordingly to the direction of the `master'. If obstacle is detected, to avoid collision, the cart shall attempt to go around it or stop completely to avoid collision.
