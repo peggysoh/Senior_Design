@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 \def \vhCurrentVersion {0.2}
 \def \vhCurrentDate {02.17.2016}
 \newsetsimple \vhAllAuthorsSet {DH, DO, PS, BW, OZ}
+=======
+\def \vhCurrentVersion {0.2}
+\def \vhCurrentDate {02.17.2016}
+\newsetsimple \vhAllAuthorsSet {DH, DO, PS, BW, OZ}
+>>>>>>> origin/master
