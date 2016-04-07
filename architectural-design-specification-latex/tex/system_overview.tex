@@ -1,4 +1,4 @@
-This section should describe the overall structure of your software system. Think of it as the strategy for how you will build the system. An architectural "layer" is the top-level logical view, or an abstraction, of your design. Layers should be composed of related elements of similar capabilities, and should be highly independent of other layers, but should have very clearly defined interfaces and interactions with other layers. Each layer should be identified individually and should be unique as to its function and purpose within the system. This section should also contain the high-level block diagram of the layers, as shown in the example below, as well as detailed descriptions of the functions of each layer.
+The Smart Cart shall consist of four major layers, namely the power supply layer, imaging layer, crab drive layer and cart hardware layer. The power supply layer shall comprise mainly the power supply subsystem. The image capturing layer shall include the camera subsystem. The cart hardware layer shall contain the switch subsystem and the wheels. Lastly, the cart navigation layer shall include the drive subsystem.
 
 \begin{figure}[h!]
 	\centering
@@ -8,13 +8,13 @@ This section should describe the overall structure of your software system. Thin
 
 
 \subsection{Power Supply Layer Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc.
+The power supply layer shall include the main power source both to the cart and to the sockets to which external devices shall be plugged. This subsystem shall contain a 12V deep cycle battery, a 2 to 3V regulator, a 5V voltage converter, and a recharge switch. The voltage regulator shall regulate the power made available for charging devices. The voltage converter shall convert 12V to a stable 5V to power the Smart Cart. Lastly, the recharge switch shall be used to protect electronics while the battery charges.
 
 \subsection{Cart Layer Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc.
+The cart layer shall include a manual switch, a killswitch, and the wheels. The manual switch that shall be used to selectively pause the system and allow the user to use the cart in manual mode. The killswitch shall be used to turn off the Smart Cart system in the event of an emergency. Lastly, the wheels shall move the cart.
 
 \subsection{Crab Drive Layer Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+The crab drive layer shall include a main motor, drive system interface with the processor, the main motor, and four individual wheel motors. This layer will control and process the navigation of the cart. The main motor processes and control the chain/belt system which coordinates the individual wheel motors.
 
 \subsection{Imaging and Navigation Description}
-Each layer should be described separately in detail. Descriptions should include the features, functions, critical interfaces and interactions of the layer. The description should clearly define the services that the layer provides. Also include any conventions that your team will use in describing the structure: naming conventions for layers, subsystems, modules, and data flows; interface specifications; how layers and subsystems are defined; etc. 
+The imaging layer shall include sensors and the camera interface. This layer will get visual data for recognising and following the user and detecting obstacles.
