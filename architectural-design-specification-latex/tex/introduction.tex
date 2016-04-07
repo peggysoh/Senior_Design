@@ -1,1 +1,14 @@
-Your introduction should describe your product concept in sufficient detail that the architectural design will be easy to follow. The introduction may include information used in the first sections of your SRS for this purpose. At a minimum, ensure that the product concept, scope and key requirements are described.
+\subsection{Product Concept}
+The Smart Cart will provide assistance by being an autonomous carrier. The cart needs to be able to do the following things:
+\begin{itemize}
+	\item Follow a ''master'' to the designated destination
+	\item Avoid collision with obstacles such as walls and other people
+	\item Include an integrated power supply
+	\item Holonomic mobility
+\end{itemize}
+
+\subsection{Scope}
+The main function of the Smart Cart is to help its user carry tools from one point to another. It will also have an integrated power supply to allow its user to charge or power his or her tools. A unique feature of the Smart Cart is that the cart will identify and follow its "master" by using the Intel RealSense. Another unique feature of the cart is its holonomic wheels. This allows the cart to easily maneuver and avoid collisions with objects by using image processing from a camera. The Smart Cart will require external input from the user. The user must wear a colored band that is provided with the Smart Cart. This band is used by the cart for tracking its "master". External outputs produced by the cart will be messages to let its user know whether it has succesfully identified its master. There are no other external inputs or outputs. A simple user interface may be implemented for identification of master depending on the availability of time. 
+
+\subsection{Key Requirements}
+The Smart Cart shall have five layers that work in unison to allow the cart to autonomously navigate and follow a specified user. The five layers in the system are the Smart Cart layer, Power Supply layer, Imaging/Navigation layer and Crab Drive layer. The five layers will be discussed more in the following sections.
