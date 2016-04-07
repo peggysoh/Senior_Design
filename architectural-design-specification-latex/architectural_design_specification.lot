@@ -1,3 +1,12 @@
-\contentsline {table}{\numberline {2}{\ignorespaces Subsystem interfaces}}{8}
-\contentsline {table}{\numberline {3}{\ignorespaces Subsystem interfaces}}{9}
-\contentsline {table}{\numberline {4}{\ignorespaces Subsystem interfaces}}{10}
+\contentsline {table}{\numberline {2}{\ignorespaces Deep cycle battery subsystem interfaces}}{10}
+\contentsline {table}{\numberline {3}{\ignorespaces Voltage regulator subsystem interfaces}}{11}
+\contentsline {table}{\numberline {4}{\ignorespaces Voltage converter subsystem interfaces}}{12}
+\contentsline {table}{\numberline {5}{\ignorespaces Recharge subsystem interfaces}}{13}
+\contentsline {table}{\numberline {6}{\ignorespaces Manual mode switch subsystem interfaces}}{15}
+\contentsline {table}{\numberline {7}{\ignorespaces Killswitch subsystem interfaces}}{16}
+\contentsline {table}{\numberline {8}{\ignorespaces Wheel subsystem interfaces}}{17}
+\contentsline {table}{\numberline {9}{\ignorespaces Drive system interface subsystem interfaces}}{19}
+\contentsline {table}{\numberline {10}{\ignorespaces Main motor subsystem interfaces}}{20}
+\contentsline {table}{\numberline {11}{\ignorespaces Wheel motors subsystem interfaces}}{20}
+\contentsline {table}{\numberline {12}{\ignorespaces Sensors subsystem interfaces}}{22}
+\contentsline {table}{\numberline {13}{\ignorespaces Camera interface subsystem interfaces}}{23}
