@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \begin {longtable}{@{}|l|l|>{\hsize =\vhAuthorColWidth }X|>{\hsize =\vhChangeColWidth }X|@{}}\hline 
 \textbf {\vhversionname }
  & \textbf {\vhdatename }
@@ -12,3 +13,19 @@
  & \listset {DH, DO, PS, BW, OZ}
  & complete draft\\\hline 
 \end {longtable}
+=======
+\begin {longtable}{@{}|l|l|>{\hsize =\vhAuthorColWidth }X|>{\hsize =\vhChangeColWidth }X|@{}}\hline 
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\\hline 
+0.1
+ & 02.24.2016
+ & \listset {DH, DO, PS, BW, OZ}
+ & document creation\\\hline 
+0.2
+ & 03.11.2016
+ & \listset {DH, DO, PS, BW, OZ}
+ & complete draft\\\hline 
+\end {longtable}
+>>>>>>> origin/master
