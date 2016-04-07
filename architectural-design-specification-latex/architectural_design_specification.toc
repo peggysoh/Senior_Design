@@ -1,0 +1,62 @@
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {subsection}{\numberline {1.1}Product Concept}{5}
+\contentsline {subsection}{\numberline {1.2}Scope}{5}
+\contentsline {subsection}{\numberline {1.3}Key Requirements}{5}
+\contentsline {section}{\numberline {2}System Overview}{6}
+\contentsline {subsection}{\numberline {2.1}Power Supply Layer Description}{6}
+\contentsline {subsection}{\numberline {2.2}Cart Layer Description}{6}
+\contentsline {subsection}{\numberline {2.3}Crab Drive Layer Description}{7}
+\contentsline {subsection}{\numberline {2.4}Imaging and Navigation Description}{7}
+\contentsline {section}{\numberline {3}Subsystem Definitions \& Data Flow}{8}
+\contentsline {section}{\numberline {4}Power Supply Subsystems}{9}
+\contentsline {subsection}{\numberline {4.1}Deep Cycle Battery}{9}
+\contentsline {subsubsection}{\numberline {4.1.1}Assumptions}{10}
+\contentsline {subsubsection}{\numberline {4.1.2}Responsibilities}{10}
+\contentsline {subsubsection}{\numberline {4.1.3}Subsystem Interfaces}{10}
+\contentsline {subsection}{\numberline {4.2}Voltage Regulator}{10}
+\contentsline {subsubsection}{\numberline {4.2.1}Assumptions}{10}
+\contentsline {subsubsection}{\numberline {4.2.2}Responsibilities}{10}
+\contentsline {subsubsection}{\numberline {4.2.3}Subsystem Interfaces}{11}
+\contentsline {subsection}{\numberline {4.3}Voltage Converter}{11}
+\contentsline {subsubsection}{\numberline {4.3.1}Assumptions}{11}
+\contentsline {subsubsection}{\numberline {4.3.2}Responsibilities}{11}
+\contentsline {subsubsection}{\numberline {4.3.3}Subsystem Interfaces}{12}
+\contentsline {subsection}{\numberline {4.4}Recharge}{12}
+\contentsline {subsubsection}{\numberline {4.4.1}Assumptions}{12}
+\contentsline {subsubsection}{\numberline {4.4.2}Responsibilities}{12}
+\contentsline {subsubsection}{\numberline {4.4.3}Subsystem Interfaces}{13}
+\contentsline {section}{\numberline {5}Cart Subsystems}{14}
+\contentsline {subsection}{\numberline {5.1}Manual Mode Switch}{14}
+\contentsline {subsubsection}{\numberline {5.1.1}Assumptions}{14}
+\contentsline {subsubsection}{\numberline {5.1.2}Responsibilities}{14}
+\contentsline {subsubsection}{\numberline {5.1.3}Subsystem Interfaces}{15}
+\contentsline {subsection}{\numberline {5.2}Killswitch}{15}
+\contentsline {subsubsection}{\numberline {5.2.1}Assumptions}{15}
+\contentsline {subsubsection}{\numberline {5.2.2}Responsibilities}{15}
+\contentsline {subsubsection}{\numberline {5.2.3}Subsystem Interfaces}{16}
+\contentsline {subsection}{\numberline {5.3}Wheels}{16}
+\contentsline {subsubsection}{\numberline {5.3.1}Assumptions}{16}
+\contentsline {subsubsection}{\numberline {5.3.2}Responsibilities}{16}
+\contentsline {subsubsection}{\numberline {5.3.3}Subsystem Interfaces}{17}
+\contentsline {section}{\numberline {6}Crab Drive Subsystems}{18}
+\contentsline {subsection}{\numberline {6.1}Drive System Interface Subsystem}{18}
+\contentsline {subsubsection}{\numberline {6.1.1}Assumptions}{18}
+\contentsline {subsubsection}{\numberline {6.1.2}Responsibilities}{19}
+\contentsline {subsubsection}{\numberline {6.1.3}Subsystem Interfaces}{19}
+\contentsline {subsection}{\numberline {6.2}Main Motor Subsystem}{19}
+\contentsline {subsubsection}{\numberline {6.2.1}Assumptions}{19}
+\contentsline {subsubsection}{\numberline {6.2.2}Responsibilities}{19}
+\contentsline {subsubsection}{\numberline {6.2.3}Subsystem Interfaces}{20}
+\contentsline {subsection}{\numberline {6.3}Wheel Motors Subsystem}{20}
+\contentsline {subsubsection}{\numberline {6.3.1}Assumptions}{20}
+\contentsline {subsubsection}{\numberline {6.3.2}Responsibilities}{20}
+\contentsline {subsubsection}{\numberline {6.3.3}Subsystem Interfaces}{20}
+\contentsline {section}{\numberline {7}Imaging and Navigation Subsystems}{21}
+\contentsline {subsection}{\numberline {7.1}Sensors Subsystem}{21}
+\contentsline {subsubsection}{\numberline {7.1.1}Assumptions}{22}
+\contentsline {subsubsection}{\numberline {7.1.2}Responsibilities}{22}
+\contentsline {subsubsection}{\numberline {7.1.3}Subsystem Interfaces}{22}
+\contentsline {subsection}{\numberline {7.2}Camera Interface Subsystem}{22}
+\contentsline {subsubsection}{\numberline {7.2.1}Assumptions}{23}
+\contentsline {subsubsection}{\numberline {7.2.2}Responsibilities}{23}
+\contentsline {subsubsection}{\numberline {7.2.3}Subsystem Interfaces}{23}
