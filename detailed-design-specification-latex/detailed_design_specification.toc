@@ -1,0 +1,67 @@
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {subsection}{\numberline {1.1}PRODUCT CONCEPT}{5}
+\contentsline {subsection}{\numberline {1.2}SCOPE}{5}
+\contentsline {subsection}{\numberline {1.3}KEY REQUIREMENTS}{5}
+\contentsline {section}{\numberline {2}System Overview}{5}
+\contentsline {subsection}{\numberline {2.1}POWER SUPPLY LAYER}{6}
+\contentsline {subsection}{\numberline {2.2}CART LAYER}{6}
+\contentsline {subsection}{\numberline {2.3}CRAB DRIVE LAYER}{6}
+\contentsline {subsection}{\numberline {2.4}IMAGING LAYER}{6}
+\contentsline {section}{\numberline {3}POWER SUPPLY SUBSYSTEM}{7}
+\contentsline {subsection}{\numberline {3.1}DEEP CYCLE BATTERY}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}ASSUMPTIONS}{7}
+\contentsline {subsubsection}{\numberline {3.1.2}RESPONSIBILITIES}{7}
+\contentsline {subsubsection}{\numberline {3.1.3}SUBSYSTEM INTERFACES}{8}
+\contentsline {subsection}{\numberline {3.2}VOLTAGE REGULATOR}{8}
+\contentsline {subsubsection}{\numberline {3.2.1}ASSUMPTIONS}{8}
+\contentsline {subsubsection}{\numberline {3.2.2}RESPONSIBILITIES}{8}
+\contentsline {subsubsection}{\numberline {3.2.3}SUBSYSTEM INTERFACES}{9}
+\contentsline {subsection}{\numberline {3.3}RECHARGE}{9}
+\contentsline {subsubsection}{\numberline {3.3.1}ASSUMPTIONS}{9}
+\contentsline {subsubsection}{\numberline {3.3.2}RESPONSIBILITIES}{9}
+\contentsline {subsubsection}{\numberline {3.3.3}SUBSYSTEM INTERFACES}{10}
+\contentsline {subsection}{\numberline {3.4}VOLTAGE CONVERTER}{10}
+\contentsline {subsubsection}{\numberline {3.4.1}ASSUMPTIONS}{10}
+\contentsline {subsubsection}{\numberline {3.4.2}RESPONSIBILITIES}{10}
+\contentsline {subsubsection}{\numberline {3.4.3}SUBSYSTEM INTERFACES}{11}
+\contentsline {section}{\numberline {4}IMAGING AND NAVIGATION SUBSYSTEM}{12}
+\contentsline {subsection}{\numberline {4.1}SENSORS SUBSYSTEM}{12}
+\contentsline {subsection}{\numberline {4.2}ASSUMPTIONS}{12}
+\contentsline {subsection}{\numberline {4.3}RESPONSIBILITIES}{12}
+\contentsline {subsection}{\numberline {4.4}SUBSYSTEM INTERFACES}{13}
+\contentsline {subsection}{\numberline {4.5}CAMERA INTERFACE SUBSYSTEM}{13}
+\contentsline {subsection}{\numberline {4.6}ASSUMPTIONS}{13}
+\contentsline {subsection}{\numberline {4.7}RESPONSIBILITIES}{13}
+\contentsline {subsection}{\numberline {4.8}SUBSYSTEM INTERFACES}{14}
+\contentsline {section}{\numberline {5}CRAB DRIVE SUBSYSTEM}{15}
+\contentsline {subsection}{\numberline {5.1}MOTOR CONTROL SUBSYSTEM}{15}
+\contentsline {subsection}{\numberline {5.2}ASSUMPTIONS}{15}
+\contentsline {subsection}{\numberline {5.3}RESPONSIBILITIES}{15}
+\contentsline {subsection}{\numberline {5.4}SUBSYSTEM INTERFACES}{16}
+\contentsline {subsection}{\numberline {5.5}DRIVE SYSTEM INTERFACE SUBSYSTEM}{16}
+\contentsline {subsection}{\numberline {5.6}ASSUMPTIONS}{16}
+\contentsline {subsubsection}{\numberline {5.6.1}RESPONSIBILITIES}{17}
+\contentsline {subsubsection}{\numberline {5.6.2}DRIVE SYSTEM INTERFACE SUBSYSTEM INTERFACES}{17}
+\contentsline {subsection}{\numberline {5.7}TEENSY MICRO-CONTROLLER}{17}
+\contentsline {subsubsection}{\numberline {5.7.1}Subsystem Programming Languages}{17}
+\contentsline {subsubsection}{\numberline {5.7.2}Subsystem Data Structures}{17}
+\contentsline {subsection}{\numberline {5.8}MOTOR CONTROLLERS}{17}
+\contentsline {subsubsection}{\numberline {5.8.1}Subsystem Programming Languages}{17}
+\contentsline {section}{\numberline {6}CART SUBSYSTEM}{18}
+\contentsline {subsection}{\numberline {6.1}MANUAL MODE SWITCH SUBSYSTEM}{18}
+\contentsline {subsubsection}{\numberline {6.1.1}ASSUMPTIONS}{18}
+\contentsline {subsubsection}{\numberline {6.1.2}RESPONSIBILITY}{18}
+\contentsline {subsubsection}{\numberline {6.1.3}Manual Mode Subsystem Interface}{18}
+\contentsline {subsection}{\numberline {6.2}KILLSWITCH}{18}
+\contentsline {subsubsection}{\numberline {6.2.1}Assumptions}{19}
+\contentsline {subsubsection}{\numberline {6.2.2}RESPONSIBILITIES}{19}
+\contentsline {subsubsection}{\numberline {6.2.3}Killswitch subsystem interface}{19}
+\contentsline {subsection}{\numberline {6.3}WHEEL SUBSYSTEM}{19}
+\contentsline {subsubsection}{\numberline {6.3.1}ASSUMPTIONS}{19}
+\contentsline {subsubsection}{\numberline {6.3.2}RESPONSIBILITIES}{20}
+\contentsline {subsubsection}{\numberline {6.3.3}Wheel subsystem interfaces}{20}
+\contentsline {section}{\numberline {7}Appendix A}{21}
+\contentsline {subsection}{\numberline {7.1}CAD Design for Central Motor Sprocket}{21}
+\contentsline {subsection}{\numberline {7.2}Joystick Input Test Code}{21}
+\contentsline {subsection}{\numberline {7.3}Motor Driver Test Code}{22}
+\contentsline {subsection}{\numberline {7.4}Final Demo Code}{26}

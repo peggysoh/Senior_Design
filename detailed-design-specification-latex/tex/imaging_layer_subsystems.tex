@@ -1,0 +1,71 @@
+The imaging and navigation layer consists of the Intel RealSense Camera, ultrasonic sensors and imaging software to produce navigation data to be sent to the drive system interface. The navigation data that will direct the crab drive system to follow a user as well as obstacle avoidance
+
+\subsection{SENSORS SUBSYSTEM}
+Sensors include the Intel RealSense camera and ultrasonic sensors. The RealSense will identify a user to follow and the ultrasonic sensors will be used for obstacle avoidance. The sensors will provide the necessary information to the camera interface needed to create navigation data.
+
+\begin{figure}[h!]
+	\centering
+ 	\includegraphics[width=0.60\textwidth]{images/sensors}
+ \caption{Sensors subsystem description diagram}
+\end{figure}
+
+\subsection{ASSUMPTIONS}
+Assumptions made are as follows:
+\begin{itemize}
+\item The user will be wearing a colored wristband that identifies them as the master
+\item The user will stay in front of the Intel RealSense to avoid possible errors, such as the cart loosing vision of its master
+\end{itemize}
+
+\subsection{RESPONSIBILITIES}
+The sensor subsystem responsibilities are as follows:
+\begin{itemize}
+\item Process image and ultrasonic data in real time
+\item keep the designated master within the image frame
+\item Gather accurate data to send to the camera interface
+\end{itemize}
+\subsection{SUBSYSTEM INTERFACES}
+\begin{table}[H]
+\caption{Sensors subsystem interface}
+\begin{center}
+\begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
+    \hline
+    ID & Description & Inputs & Outputs \\ \hline
+    \ 1 & Send sensor data & \pbox{3cm}{Camera Ultrasonic} & \pbox{3cm}{Camera interface }  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{CAMERA INTERFACE SUBSYSTEM}
+The camera interface is responsible for receiving data from sensors and calculating the required navigation data and sending it to the crab drive's system interface. The navigation data will include require speed, direction needed and distance from obstacles.
+\begin{figure}[h!]
+	\centering
+ 	\includegraphics[width=0.60\textwidth]{images/camerainterface}
+ \caption{Camera Interface subsystem description diagram}
+\end{figure}
+
+\subsection{ASSUMPTIONS}
+Assumptions are as follows:
+\begin{itemize}
+\item Accurate data is being sent from the sensors
+\item The camera interface will be able to communicate with the drive system interface 
+\end{itemize}
+
+\subsection{RESPONSIBILITIES}
+The camera subsystem responsibility are as below:
+\begin{itemize}
+\item Calculate and process the navigation data
+\item Communicate necessary information to the drive system interface 
+\end{itemize}
+
+\subsection{SUBSYSTEM INTERFACES}
+\begin{table}[H]
+\caption{Camera Interface Subsystem interfaces}
+\begin{center}
+\begin{tabular}{ | p{1cm} | p{6cm} | p{3cm} | p{3cm} |}
+    \hline
+    ID & Description & Inputs & Outputs \\ \hline
+    \ 2 & Calculating navigation data & \pbox{3cm}{Sensors} & \pbox{3cm}{Drive System interface }  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \begin {longtable}{@{}|l|l|>{\hsize =\vhAuthorColWidth }X|>{\hsize =\vhChangeColWidth }X|@{}}\hline 
 \textbf {\vhversionname }
  & \textbf {\vhdatename }
@@ -12,20 +11,8 @@
  & 02.17.2016
  & \listset {DH, DO, PS, BW, OZ}
  & proof-read document\\\hline 
+1.0
+ & 08.17.2016
+ & \listset {PS, BW}
+ & updated vision, mission, success criteria\\\hline 
 \end {longtable}
-=======
-\begin {longtable}{@{}|l|l|>{\hsize =\vhAuthorColWidth }X|>{\hsize =\vhChangeColWidth }X|@{}}\hline 
-\textbf {\vhversionname }
- & \textbf {\vhdatename }
- & \textbf {\vhauthorname }
- & \textbf {\vhchangename }\\\hline 
-0.1
- & 02.10.2016
- & \listset {DH, DO, PS, BW, OZ}
- & document creation\\\hline 
-0.2
- & 02.17.2016
- & \listset {DH, DO, PS, BW, OZ}
- & proof-read document\\\hline 
-\end {longtable}
->>>>>>> origin/master
