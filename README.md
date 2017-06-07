@@ -1,2 +1,2 @@
-﻿# Senior_Design
-Senior Design Documentation
+﻿# SmartCart
+SmartCart documentation for Senior Design
