@@ -9,3 +9,6 @@
 * System Requirements Specification
 * Arduino code for cart control
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/peggysoh/SmartCart/master/PosterPresentation.jpg">
+</p>
